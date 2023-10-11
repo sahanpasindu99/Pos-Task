@@ -47,13 +47,11 @@ const Items = () => {
   };
 
   useEffect(() => {
-    // Add a scroll event listene
     const container = containerRef.current;
     if (container) {
       container.addEventListener('scroll', handleScroll);
     }
 
-    // Clean up the event listener
     return () => {
       if (container) {
         container.removeEventListener('scroll', handleScroll);
