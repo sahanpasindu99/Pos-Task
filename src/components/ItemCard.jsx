@@ -41,7 +41,6 @@ const ItemList = () => {
       container.addEventListener('scroll', handleScroll);
     }
     return () => {
-      // Remove the event listener when the component unmounts
       if (container) {
         container.removeEventListener('scroll', handleScroll);
       }

@@ -58,7 +58,7 @@ const Items = () => {
       }
     };
   }, [afterFirst]);
- 
+
   return (
     <div className='mx-auto  rounded-md  h-[90vh]' >
       <div className="flex  p-3 justify-between">
@@ -100,11 +100,13 @@ const Items = () => {
             {items.map((item) => (
               <div key={item.id} className="bg-white p-3 shadow-md rounded-md items-center transform hover.bg-gray-50 hover:scale-105 transition duration-50 ease-in-out">
                 <div className="img bg-cover justify-center items-center">
+              
                   <img
                     src={item.images[currentIndex]}
                     alt={`Image for ${item.name}`}
                     className="w-full h-auto object-fill rounded-sm"
                   />
+               
                 </div>
                 <h2 className="text-xs text-blue-700 mt-1 text-center font-semibold mb-1">{item.name}</h2>
                 <p className="text-xs text-gray-800 text-center font-semibold">Rs. {item.price} | {item.quantity} pc</p>
