@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 const Payment = () => {
   return (
-    <div className="flex h-15  p-1 w-full shadow-sm bg-gray-100 absolute bottom-0">
+    <div className="flex h-15  p-1 w-full shadow-sm bg-gray-50 absolute bottom-0">
       {/* Left Div */}
       
       <div className="w-[65%] bg-white  shadow-sm grid grid-cols-4 gap-3 p-2 rounded-md pl-4 ml-1">
