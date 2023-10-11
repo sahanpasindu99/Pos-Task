@@ -6,7 +6,7 @@ import { faCoffee } from '@fortawesome/free-solid-svg-icons'
 
 const Body = () => {
   return (
-    <div className="flex bg-gray-50 px-2 relative ">
+    <div className="flex bg-gray-100 px-2 relative ">
       <div className="w-[65%] justify-between ">
         {/* First Line */}
         <div className='bg-white rounded-md shadow-sm '>
