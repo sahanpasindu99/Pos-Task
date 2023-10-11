@@ -59,7 +59,6 @@ const Items = () => {
     };
   }, [afterFirst]);
  
-
   return (
     <div className='mx-auto  rounded-md  h-[90vh]' >
       <div className="flex  p-3 justify-between">
