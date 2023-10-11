@@ -7,7 +7,6 @@ import { faCoffee } from '@fortawesome/free-solid-svg-icons'
 const Body = () => {
   return (
     <div className="flex bg-gray-50 px-2 relative ">
-      {/* Left Side */}
       <div className="w-[65%] justify-between ">
         {/* First Line */}
         <div className='bg-white rounded-md shadow-sm '>
@@ -37,7 +36,6 @@ const Body = () => {
       </svg>
     </button>
   </div>
-            {/* Dropdown Content */}
             <div className="hidden group-hover:block absolute bg-white text-black mt-2 p-2 space-y-2">
               
             </div>
@@ -56,7 +54,6 @@ const Body = () => {
     </button>
   </div>
            
-            {/* Dropdown Content */}
             <div className="hidden group-hover:block absolute transparent text-gray-800 mt-2 p-2 space-y-2">
               
          
@@ -71,7 +68,6 @@ const Body = () => {
       </svg>
     </button>
   </div>
-            {/* Dropdown Content */}
             
           </div>
           <div className="relative group">
@@ -87,7 +83,6 @@ const Body = () => {
         </div>
         </div>
 
-        {/* Table */}
         <table className="table-auto bg-transparent  mt-1/2  w-full">
           <thead className='border border-gray-300'>
             <tr className='text-gray-800'>
@@ -98,13 +93,11 @@ const Body = () => {
             </tr>
           </thead>
           <tbody>
-            {/* Table rows go here */}
            
           </tbody>
         </table>
       </div>
 
-      {/* Right Side */}
       <div className="w-[35%] ml-1 flex ">
        
         <Items/>

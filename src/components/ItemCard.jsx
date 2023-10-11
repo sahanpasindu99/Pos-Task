@@ -56,7 +56,6 @@ const ItemList = () => {
       <div className="flex flex-wrap">
         {items.map((item) => (
           <div key={item.id} className="w-1/3 p-4">
-            {/* Render your item card here */}
             <div className="bg-white p-4 shadow-md">
               <h2 className="text-xl">{item.name}</h2>
               <img src={item.picture} alt={item.name} className="mt-2" />

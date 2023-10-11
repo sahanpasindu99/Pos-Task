@@ -8,11 +8,11 @@ import Items from './components/Items';
 
 function App() {
   return (
-    <div className=''>
-<Navbar/>
-<Body/>
-<Payment/>
-    </div>
+    <>
+      <Navbar/>
+      <Body/>
+      <Payment/>
+    </>
   )
 }
 

@@ -35,7 +35,7 @@ const Payment = () => {
 </div>
 
 
-      {/* Right Div (35%) */}
+      {/* Right Div  */}
 
       <div class="w-[35%] bg-white shadow-sm grid grid-cols-4 gap-4 p-2  rounded-md  mr-1 ml-2" >
   <button class="bg-green-500 hover:bg-green-600 text-sm text-black font-semibold py-2 px-4 rounded focus:outline-none focus:shadow-outline-blue active:bg-blue-700">

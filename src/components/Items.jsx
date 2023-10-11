@@ -1,8 +1,4 @@
 import React, { useState, useEffect, useRef } from 'react';
-import Slider from 'react-slick';
-import 'slick-carousel/slick/slick.css';
-import 'slick-carousel/slick/slick-theme.css';
-
 
 const Items = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -51,29 +47,20 @@ const Items = () => {
   };
 
   useEffect(() => {
-    // Add a scroll event listener to the container
+    // Add a scroll event listene
     const container = containerRef.current;
     if (container) {
       container.addEventListener('scroll', handleScroll);
     }
 
-    // Clean up the event listener when the component unmounts
+    // Clean up the event listener
     return () => {
       if (container) {
         container.removeEventListener('scroll', handleScroll);
       }
     };
   }, [afterFirst]);
-
-  const settings = {
-    dots: true, // Show the navigation dots
-    infinite: true, // Infinite loop
-    speed: 500, // Transition speed
-    slidesToShow: 1, // Number of slides to show at once
-    slidesToScroll: 1, // Number of slides to scroll
-    autoplay: true, // Enable autoplay
-    autoplaySpeed: 5000, // Autoplay duration in milliseconds (5 seconds)
-  };  
+ 
 
   return (
     <div className='mx-auto  rounded-md  h-[90vh]' >
